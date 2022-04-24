@@ -1,4 +1,4 @@
-/* const { User } = require("../../models");
+const { User } = require("../../models");
 
 const getCurrent = async (req, res) => {
   const { email, subscription } = req.user;
@@ -14,4 +14,4 @@ const getCurrent = async (req, res) => {
   });
 };
 
-module.exports = getCurrent; */
+module.exports = getCurrent;
